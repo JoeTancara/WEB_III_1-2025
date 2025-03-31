@@ -1,0 +1,80 @@
+Estructura Básica para Proyecto PHP
+Este proyecto es una estructura básica para desarrollar aplicaciones web con PHP, utilizando constantes de configuración para gestionar rutas y recursos.
+
+🚀 Características
+Estructura organizada de archivos y directorios
+
+Configuración centralizada en config.php
+
+Uso de Bootstrap para diseño responsivo
+
+Sistema de rutas mediante constantes PHP
+
+Componentes reutilizables (header, footer, navegación)
+
+📂 Estructura del Proyecto
+Copy
+/WEB_III/pp/ESTRUCTURA_BASICA/
+├── assets/
+│   ├── css/          # Archivos de estilos CSS
+│   └── images/       # Imágenes del proyecto (logo.png, etc.)
+├── includes/
+│   ├── config.php    # Configuración y constantes
+│   ├── header.php    # Cabecera común
+│   ├── footer.php    # Pie de página común
+│   └── navigation.php # Menú de navegación
+├── pages/
+│   ├── inicio.php    # Página de inicio
+│   ├── pagina1.php   # Página 1
+│   ├── pagina2.php   # Página 2
+│   └── pagina3.php   # Página 3
+└── index.php         # Punto de entrada principal
+⚙️ Configuración
+Clona o descarga este repositorio en la carpeta htdocs de tu servidor XAMPP:
+
+Copy
+C:\xampp\htdocs\WEB_III\pp\ESTRUCTURA_BASICA\
+Asegúrate de que el servidor Apache esté corriendo en XAMPP.
+
+Accede al proyecto desde tu navegador:
+
+Copy
+http://localhost/WEB_III/pp/ESTRUCTURA_BASICA/
+Configura las constantes en includes/config.php según tus necesidades:
+
+php
+Copy
+define('BASE_URL', 'http://localhost/WEB_III/pp/ESTRUCTURA_BASICA/');
+define('LOGO_URL', BASE_URL . 'assets/images/logo.png');
+define('PAGE_INICIO', BASE_URL . 'pages/inicio.php');
+define('PAGE_1', BASE_URL . 'pages/pagina1.php');
+// ... otras constantes
+🖼️ Capturas de Pantalla
+Logo del Proyecto
+Logo del proyecto ubicado en assets/images/logo.png
+
+🛠️ Tecnologías Utilizadas
+PHP 7.4+
+
+HTML5
+
+CSS3
+
+Bootstrap 5
+
+XAMPP (para entorno de desarrollo)
+
+📝 Notas
+Este es un proyecto académico demostrativo.
+
+Las rutas están configuradas para funcionar en un entorno local con XAMPP.
+
+Se recomienda modificar las constantes en config.php según las necesidades del proyecto.
+
+📜 Licencia
+Este proyecto es de carácter académico y se distribuye bajo los términos de la licencia MIT.
+
+👨‍💻 Autor
+JoeDev
+Proyecto académico para el curso de Programación Web III.
+Universidad UMSA INFORMATICA - 2025
