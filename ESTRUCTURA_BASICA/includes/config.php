@@ -2,7 +2,7 @@
 
 if (!defined('BASE_URL')) {
     // AQUI PONGAN EL URL DE SU PROYECTO  Y MODIIFIQUEN PARA  FUNCIONE EN SU PC
-    define('BASE_URL', 'http://localhost/WEB_III/pp/ESTRUCTURA_BASICA/');
+    define('BASE_URL', 'http://localhost/WEB_III/ESTRUCTURA_BASICA/');
 }
 
 if (!defined('LOGO_URL')) {
